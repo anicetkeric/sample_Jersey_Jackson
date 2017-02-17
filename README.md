@@ -46,12 +46,12 @@ We will learn how to integrate Jersey REST Client and Jackson to build a RESTful
             <servlet-name>RestServer-serlvet</servlet-name>
             <url-pattern>/api/*</url-pattern>
         </servlet-mapping>
-    ```    
+```    
 
     
     
 ## Example UserService.class
-
+```java
 
     import java.util.ArrayList;
     import java.util.List;
@@ -99,7 +99,7 @@ We will learn how to integrate Jersey REST Client and Jackson to build a RESTful
             }    
 
     }
-  
+ ```
 ## Demo
 
     http://localhost:8088/RestfullJerseyJackson/api/users/listUsers
