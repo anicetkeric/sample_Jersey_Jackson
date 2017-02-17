@@ -14,7 +14,7 @@ We will learn how to integrate Jersey REST Client and Jackson to build a RESTful
 ![prj structure](https://github.com/anicetkeric/sample_Jersey_Jackson/blob/master/WebContent/screenshots/structure.PNG)
 
 # Jackson Dependencies
-
+```xml
     <dependency>
         <groupId>com.sun.jersey</groupId>
         <artifactId>jersey-server</artifactId>
@@ -26,9 +26,9 @@ We will learn how to integrate Jersey REST Client and Jackson to build a RESTful
         <artifactId>jersey-json</artifactId>
         <version>1.9</version>
     </dependency>
-   
+ ```  
 #### Web.xml (Contents)
-
+```xml
         <servlet>
             <servlet-name>RestServer-serlvet</servlet-name>
             <servlet-class>
@@ -44,7 +44,7 @@ We will learn how to integrate Jersey REST Client and Jackson to build a RESTful
             <servlet-name>RestServer-serlvet</servlet-name>
             <url-pattern>/api/*</url-pattern>
         </servlet-mapping>
-        
+    ```    
 ## Example UserService.class
 
 
